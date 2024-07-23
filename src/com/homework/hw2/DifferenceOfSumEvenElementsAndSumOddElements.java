@@ -1,8 +1,6 @@
 package com.homework.hw2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class DifferenceOfSumEvenElementsAndSumOddElements {
@@ -17,19 +15,11 @@ public class DifferenceOfSumEvenElementsAndSumOddElements {
             System.out.println("Значения элементов в массиве " + Arrays.toString(arr));
 
             int j = 1;
-//            while (j <= arr.length - 1) {
-//                System.out.print("Массив из четных элементов: " + arr[j] + " ");
-//                j = j + 2;}
             int sumEven = 0;
             for (j=1; j < arr.length; j=j+2) {
                     sumEven += arr[j];
             }
-//            System.out.print(", ");
             int k = 0;
-//                while (k <= arr.length - 1) {
-//                    System.out.print(arr[k] + " ");
-//                    k = k + 2;
-//          }
             int sumOdd = 0;
             for (k=0; k < arr.length; k=k+2) {
                 sumOdd += arr[k];
