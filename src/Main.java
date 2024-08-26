@@ -42,5 +42,9 @@ public class Main {
 //        HW2 Задача 3.
         DifferenceOfSumEvenElementsAndSumOddElements difOfSumEvenElAndSumOddEl = new DifferenceOfSumEvenElementsAndSumOddElements();
         difOfSumEvenElAndSumOddEl.difOfSumEvenAndSumOdd();
+
+//        HW4
+        Person person1 = new Person("Иван", "Иванов");
+        System.out.println(person1.personInfo());
     }
 }
