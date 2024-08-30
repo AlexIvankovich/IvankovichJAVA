@@ -1,13 +1,13 @@
 package com.homework.hwPlaylist;
 
-    public class Track implements AudioTrack {
+    public class Song implements AudioTrack {
         private String title;
         private String artist;
         private String genre;
         private int duration;
         private double rating;
 
-        public Track(String title, String artist, String genre, int duration) {
+        public Song(String title, String artist, String genre, int duration) {
             this.title = title;
             this.artist = artist;
             this.genre = genre;
